@@ -1,0 +1,86 @@
+.albumContainer {
+    margin: auto;
+}
+
+.holdsContent {
+    display: flex;
+    border: 1px solid lightblue;
+}
+
+.sidebar {
+    display: flex;
+    border: 1px solid lightblue; 
+    width: 300px;
+    height:1100px;
+    margin: -1px;
+}
+
+ul {
+    margin-left:0px;
+}
+.name2 {
+    font-size: 40px;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    line-height: 2;
+    
+}
+
+.picHolder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height:1100px;
+    width: 967px;  
+    
+}
+
+.photo2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    height:300px;
+    width: 300px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 3px;
+    height: 44px;
+    width: 86px;
+    position: absolute;
+    top: 673px;
+    left: 50px;
+    font-size: 15px;
+    color: darkgrey;
+    
+    
+}
+
+li {
+    list-style: none;
+}
+
+
+.img2{
+    height: 301px;
+    width: 443px;
+    margin-top: 32px;
+    margin-left: 21px;
+
+}
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    font-size: 15px;
+}
+
+.caption {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    font-size: 12px;
+    position: relative;
+    top: 44px;
+    left: 22px;
+}

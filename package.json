@@ -1,25 +1,25 @@
 {
-  "name": "photo-album",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "concurrently": "^4.1.0",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.14.2"
   },
+  "name": "photo-album",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "concurrently \"json-server db.json -p 3001\" \"cd client && npm start\""
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teyaleoni/photo-album.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teyaleoni/photo-album/issues"
+  },
+  "homepage": "https://github.com/teyaleoni/photo-album#readme",
+  "description": ""
 }

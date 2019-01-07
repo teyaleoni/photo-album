@@ -1,0 +1,283 @@
+{
+    "albums": [
+        {
+            "id": 1 ,
+            "name": "Yoga",
+            "coverPhoto": "https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        },
+        {
+            "id": 2 ,
+            "name": "Meditation",
+            "coverPhoto": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80"
+        },
+        {
+            "id": 3 ,
+            "name": "Gym",
+            "coverPhoto": "https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 4 ,
+            "name": "Dance",
+            "coverPhoto": "https://images.unsplash.com/photo-1542892770-3e6a09c7a7da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1258&q=80"
+        },
+        {
+            "id": 5 ,
+            "name": "Running",
+            "coverPhoto": "https://images.unsplash.com/photo-1511536830243-d4cf5a1ebfca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1389&q=80"
+        },
+        {
+            "id": 6 ,
+            "name": "Boxing",
+            "coverPhoto": "https://images.unsplash.com/photo-1495555687398-3f50d6e79e1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        }
+        
+    ],
+
+    "photos": [
+        {
+            "id": 1,
+            "albumId": 1,
+            "name": "Mat",
+            "url": "https://images.unsplash.com/photo-1533727937480-da3a97967e95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 2,
+            "albumId": 1,
+            "name": "Warrior Pose",
+            "url": "https://images.unsplash.com/photo-1484452330304-377cdeb05340?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 3,
+            "albumId": 1,
+            "name": "Pose",
+            "url": "https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 4,
+            "albumId": 1,
+            "name": "Breathe",
+            "url": "https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 5,
+            "albumId": 1,
+            "name": "Pose",
+            "url": "https://images.unsplash.com/photo-1532798442725-41036acc7489?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 6,
+            "albumId": 1,
+            "name": "Pose",
+            "url": "https://images.unsplash.com/photo-1520769945061-0a448c463865?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"    
+        },
+
+
+
+        {
+            "id": 7,
+            "albumId": 2,
+            "name": "Meditating on the beach",
+            "url": "https://images.unsplash.com/photo-1517760307355-e48f68215de6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 8,
+            "albumId": 2,
+            "name": "Meditating in the mountains",
+            "url": "https://images.unsplash.com/photo-1522075782449-e45a34f1ddfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 9,
+            "albumId": 2,
+            "name": "Walking through",
+            "url": "https://images.unsplash.com/uploads/14122810486321888a497/1b0cc699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 10,
+            "albumId": 2,
+            "name": "Flower",
+            "url": "https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1370&q=80"
+            
+        },
+        {
+            "id": 11,
+            "albumId": 2,
+            "name": "Sunset",
+            "url": "https://images.unsplash.com/photo-1530847887473-36dbaf586122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 12,
+            "albumId": 2,
+            "name": "Beach",
+            "url": "https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        
+
+
+        {
+            "id": 13,
+            "albumId": 3,
+            "name": "Deadlift",
+            "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 14,
+            "albumId": 3,
+            "name": "Ropes",
+            "url": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 15,
+            "albumId": 3,
+            "name": "Jump Squats",
+            "url": "https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 16,
+            "albumId": 3,
+            "name": "Equipment",
+            "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 17,
+            "albumId": 3,
+            "name": "Workout",
+            "url": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 18,
+            "albumId": 3,
+            "name": "Push",
+            "url": "https://images.unsplash.com/photo-1506197061617-7f5c0b093236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        
+
+
+
+
+        {
+            "id": 19,
+            "albumId": 4,
+            "name": "Social Dance",
+            "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 20,
+            "albumId": 4,
+            "name": "Freestyle",
+            "url": "https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 21,
+            "albumId": 4,
+            "name": "Ballet",
+            "url": "https://images.unsplash.com/photo-1516737488405-7b6d6868fad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 22,
+            "albumId": 4,
+            "name": "Bboy",
+            "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 23,
+            "albumId": 4,
+            "name": "Hair",
+            "url": "https://images.unsplash.com/photo-1478604659451-3424450de009?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 24,
+            "albumId": 4,
+            "name": "Free Falling",
+            "url": "https://images.unsplash.com/photo-1535161531861-4a5d0a14bf40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+
+
+
+
+        {
+            "id": 25,
+            "albumId": 5,
+            "name": "Runner",
+            "url": "https://images.unsplash.com/photo-1530143311094-34d807799e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 26,
+            "albumId": 5,
+            "name": "Runner",
+            "url": "https://images.unsplash.com/photo-1468645547353-56d325bb57ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 27,
+            "albumId": 5,
+            "name": "Race",
+            "url": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+            "id": 28,
+            "albumId": 5,
+            "name": "Prep",
+            "url": "https://images.unsplash.com/photo-1534047802303-7d940783be50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 29,
+            "albumId": 5,
+            "name": "Run",
+            "url": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 30,
+            "albumId": 5,
+            "name": "Shoe",
+            "url": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+
+
+
+
+        {
+            "id": 31,
+            "albumId": 6,
+            "name": "Spar",
+            "url": "https://images.unsplash.com/photo-1517438322307-e67111335449?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 32,
+            "albumId": 6,
+            "name": "Ring",
+            "url": "https://images.unsplash.com/photo-1509563268479-0f004cf3f58b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 33,
+            "albumId": 6,
+            "name": "Training",
+            "url": "https://images.unsplash.com/photo-1522844931788-513a2ed46b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+            "id": 34,
+            "albumId": 6,
+            "name": "Gloves",
+            "url": "https://images.unsplash.com/photo-1532080372453-1ade846550bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 35,
+            "albumId": 6,
+            "name": "Wraps",
+            "url": "https://images.unsplash.com/photo-1535469420027-517674dad7a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        },
+        {
+            "id": 36,
+            "albumId": 6,
+            "name": "Break",
+            "url": "https://images.unsplash.com/photo-1526792903869-f3035bfc7f29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
+        }
+
+
+
+
+
+       
+
+        
+
+    ]
+}

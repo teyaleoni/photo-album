@@ -1,0 +1,39 @@
+.albumsContainer {
+    margin: auto;
+}
+
+
+h1 {
+    color: darkgray;
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+}
+img {
+    height: 300px;
+    width: 430px;
+    margin: 17px;
+    margin-bottom: -43px;
+}
+
+.name {
+    color: white;
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 54px;
+    left: 38px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

@@ -23,6 +23,7 @@ class Album extends Component {
             this.setState({
               albumHolder: resp.data
             })
+            console.log(this.state.albumHolder)
           })
   }
 
@@ -60,7 +61,7 @@ class Album extends Component {
 
               <div className="picHolder">
                     {this.state.singleAlbum.map(x => (
-                      <div className="photo2"><img className="img2" src={x.url}/><div className="caption">{x.name}</div></div>
+                      <Link to={`/photos/${x.id}`}><div className="photo2"><img className="img2" src={x.url}/><div className="caption">{x.name}</div></div></Link>
                       )
                     )} 
                   

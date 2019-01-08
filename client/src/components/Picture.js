@@ -5,45 +5,49 @@ import axios from 'axios'
 
 class Picture extends Component {
   state = {
-    header: {}
+    header: '',
+    mainPic: '',
+    albumNumber: 0,
+    albumHolder: [],
   }
 
   componentDidMount() {
     const id = this.props.match.params.id
-    axios.get(`http://localhost:3001/album/${id}?_embed=photos`).then(resp => {
+    axios.get(`http://localhost:3001/photos/${id}`).then(resp => {
       this.setState({
-        header: resp.data
+        header: resp.data.name,
+        mainPic: resp.data.url,
+        albumNumber: resp.data.albumId
       })
-    })
-  //   axios.get('http://localhost:3001/albums').then(resp => {
-  //           this.setState({
-  //             albumHolder: resp.data
-  //           })
-  //         })
-  // }
+    }) 
+  }
 
-  // componentWillReceiveProps(newProps) {
-  //   if (this.props.match.params.id !== newProps.match.params.id) {
-  //     const id = newProps.match.params.id
-  //   axios.get(`http://localhost:3001/albums/${id}?_embed=photos`).then(resp => {
-  //     this.setState({
-  //       // singleAlbum: resp.data.photos,
-  //       header: resp.data
-  //     })
-  //   })
-   }
+  componentWillReceiveProps(newProps) {
+    const id = newProps.match.params.id
+    axios.get(`http://localhost:3001/photos/${id}`).then(resp => {
+      this.setState({
+        header: resp.data.name,
+        mainPic: resp.data.url,
+        albumNumber: resp.data.albumId
+      })
+    }) 
+  }
 
- 
-
-
-
+  handleClick = (e) => {
+    // e.preventDefault()
+  }
   
-    render() {
-      return (
-        <div className="albumContainer">
-            <h1>{this.state.header.name}</h1>
-        </div>
-      )
+  render() {
+    let id = Number(this.props.match.params.id)
+    console.log(id)
+    return (
+      <div className="pictureContainer">
+          <h1>{this.state.header}</h1>
+          <Link to={"/Photos/" + (id-1)}><button onClick={this.handleClick}>Left</button></Link>
+          <img src = {this.state.mainPic} />
+          <Link to={"/Photos/" + (id+1)}><button onClick={this.handleClick}>Right</button></Link>
+      </div>
+    )
   }
 }
 

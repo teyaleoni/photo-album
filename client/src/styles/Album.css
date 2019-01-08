@@ -44,19 +44,6 @@ ul {
     width: 300px;
 }
 
-button {
-    background-color: transparent;
-    border-radius: 3px;
-    height: 44px;
-    width: 86px;
-    position: absolute;
-    top: 673px;
-    left: 50px;
-    font-size: 15px;
-    color: darkgrey;
-    
-    
-}
 
 li {
     list-style: none;

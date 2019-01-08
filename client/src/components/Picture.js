@@ -43,9 +43,11 @@ class Picture extends Component {
     return (
       <div className="pictureContainer">
           <h1>{this.state.header}</h1>
-          <Link to={"/Photos/" + (id-1)}><button onClick={this.handleClick}>Left</button></Link>
-          <img src = {this.state.mainPic} />
-          <Link to={"/Photos/" + (id+1)}><button onClick={this.handleClick}>Right</button></Link>
+        <div className = "photo">
+          <Link to={"/Photos/" + (id-1)}><button onClick={this.handleClick}>Back</button></Link>
+          <img className="pic" src = {this.state.mainPic} />
+          <Link to={"/Photos/" + (id+1)}><button onClick={this.handleClick}>Forward</button></Link></div>
+          
       </div>
     )
   }
